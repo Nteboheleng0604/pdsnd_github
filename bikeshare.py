@@ -189,20 +189,13 @@ def user_stats(df):
         print('-'*40)
 def raw_data(df):
     """ Displays the raw data five rows at a time"""
-    n = 0
     while True:
-        raw = input('Would like to see raw data? Type \'yes\' or \'no\'')
-        raw = raw.lower()
-        if raw != 'yes':
-            print('That how the raw data looks like. Lets continue *_*')
-            break
-        else:
-            n = n + 5
-            print(df.iloc[n: n + 5])
+    print(df.sample(5))
+    view_more = input("Do you want to see more raw data? Type 'yes' to see more")
+    if view_more != "yes":
+        break
     print('-' * 40)
  
-    
-
 def main():
     while True:
         city, month, day = get_filters()
