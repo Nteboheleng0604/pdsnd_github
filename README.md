@@ -5,6 +5,8 @@ Explore US Bikeshare Data
 # Overview
 The project uses python  and libraries like numpy to uncover bikehare usage patterns of three cities in the US: Chicago, Washington and New York city. The project interacts with the user allowing the user to view the statistics of the cities and compare.
 
+# Data Source
+The data is provided by MOtivate: a bikeshare system provider for many cities in the USA.
 
 # Date modified
 Last modified on 12/09/2022
@@ -15,6 +17,9 @@ libraries used:
  -pandas 
  -numpy
  -time
+
+# Author
+Ntebohelelng Mokhohlane
 
 # Acknowlegements
 udacity- udacity classroom material and reviewers helped in the successful completion of the project.
