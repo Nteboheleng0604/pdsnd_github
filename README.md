@@ -1,17 +1,37 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
+# Project titile
+Explore US Bikeshare Data
 
-### Date created
-Include the date you created this project and README file.
 
-### Project Title
-Replace the Project Title
+# Overview
+The project uses python  and libraries like numpy to uncover bikehare usage patterns of three cities in the US: Chicago, Washington and New York city. The project interacts with the user allowing the user to view the statistics of the cities and compare.
 
-### Description
-Describe what your project is about and what it does
+# Statistics computed
+-popular times of travel
+-popular stations and trips
+-trip duration
+-user types
 
-### Files used
-Include the files used
+# Data Source
+The data is provided by MOtivate: a bikeshare system provider for many cities in the USA.
 
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+# Date modified
+Last modified on 12/09/2022
+
+# Requirements
+python 3.6 
+libraries used:
+ -pandas 
+ -numpy
+ -time
+
+# Author
+Ntebohelelng Mokhohlane
+
+# Acknowlegements
+udacity- udacity classroom material and reviewers helped in the successful completion of the project.
+http://pandas.pydata.org/pandas-docs/stable/  pandas documentation was helpful in clarifying usage of functions.
+https://docs.python.org/3/library/ 
+https://github.com/ehmatthes/pcc/releases/download/v1.0.0/beginners_python_cheat_sheet_pcc_all.pdf was very helpful in usage of loops.
+
+
 
